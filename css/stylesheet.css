@@ -1,0 +1,14 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	background-image: url("../images/brushed.png");
+}
+
+.nav {
+	font-size: 1em;
+	font-color: red;
+}
+
+#active {
+	font-color: red;
+}
