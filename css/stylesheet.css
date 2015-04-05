@@ -77,8 +77,9 @@ footer #links li{
 	list-style-type: none;
 	float: right;
 }
-footer #link li a:hover {
-
+footer #link a:hover {
+	margin: 50px;
+	border: blue solid 1px;
 }
 footer #copyright {
 	text-align: center;
@@ -93,5 +94,5 @@ h1 {
 	min-height: 100%;
 	margin: 0px 10% 0px 10%;
 	padding: 60px 20px 20px 20px;
-	text-align: justify;
+	text-align: left;
 }
