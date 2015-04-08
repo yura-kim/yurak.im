@@ -52,7 +52,7 @@ header #nav ul {
 	margin: 10px 10px 0px 0px;
 	vertical-align: center;
 }
-header #nav ul li {
+header #nav li {
 	display: inline;
 	float: right;
 	height: 60px;
@@ -80,7 +80,7 @@ h1 {
 
 h2 {
 	font-family: 'Lato','Roboto','Arial',sans-serif;
-	color: rgba(27,94,56,1);
+	color: rgba(20,50,20,1);
 }
 
 .introduction {
@@ -98,6 +98,19 @@ h2 {
 	margin: 0px;
 	padding: 50px 10% 50px 10%;
 	text-align: left;
+}
+
+.projects ul {
+	list-style-type: none;
+	vertical-align: center;
+}
+.projects li {
+	width: 35%;
+	display: inline-block;
+	padding: 10px 10px 20px 10px;
+}
+.projects li img {
+	width: 500px;
 }
 
 .about {
