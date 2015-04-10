@@ -101,12 +101,16 @@ h2 {
 }
 
 .projects ul {
+	border: 0px;
+	padding: 0px;
 	list-style-type: none;
 	vertical-align: center;
 }
 .projects li {
-	width: 35%;
-	display: inline-block;
+	border: 0px;
+	padding: 0px;
+	width: 500px;
+	display: inline-table;
 	padding: 10px 10px 20px 10px;
 }
 .projects li img {
