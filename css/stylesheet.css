@@ -87,7 +87,7 @@ h2 {
 	background: rgba(255,255,255,1);
 	min-height: 100%;
 	margin: 0px;
-	padding: 200px 10% 50px 10%;
+	padding: 200px 10% 60px 10%;
 	text-align: center;
 	color: rgba(248,131,121,1);
 }
@@ -110,12 +110,25 @@ h2 {
 	border: 0px;
 	padding: 0px;
 	width: 500px;
+	padding: 10px 10px 20px 10px;
+}
+
+/*.projects ul {
+	border: 0px;
+	padding: 0px;
+	list-style-type: none;
+	vertical-align: center;
+}
+.projects li {
+	border: 0px;
+	padding: 0px;
+	width: 500px;
 	display: inline-table;
 	padding: 10px 10px 20px 10px;
 }
 .projects li img {
 	width: 500px;
-}
+}*/
 
 .about {
 	background: rgba(255,255,255,1);
