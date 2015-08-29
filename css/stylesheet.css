@@ -20,7 +20,7 @@ body {
 a:link, a:visited {
 	text-decoration: none;
 	color: rgba(150,150,150,1);
-}
+};
 a:hover {
 	color: rgba(248,131,121,1);
 }
