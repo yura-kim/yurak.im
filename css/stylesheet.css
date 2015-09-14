@@ -11,6 +11,7 @@ Complementary Color Scheme
 /*
 New Color Scheme
 https://color.adobe.com/Watermelon-color-theme-42374/?showPublished=true
+ Dark Green:    #40411E
  Green:			#7D8A2E
  Light green:	#C9D787
  White:			#FFFFFF
@@ -19,28 +20,14 @@ https://color.adobe.com/Watermelon-color-theme-42374/?showPublished=true
 */
 
 body {
+	height:;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-size: 16px;
-	color: rgba(100,100,100,1);
-	background-position: fixed;
-}
-
-a:link, a:visited {
-	text-decoration: none;
-	color: rgba(150,150,150,1);
-};
-a:hover {
-	color: rgba(248,131,121,1);
-}
-a:active {
-	text-decoration: none;
-	color: rgba(248,131,121,1);
-}
-a.active{
-	text-decoration: none;
-	color: rgba(248,131,121,1);
+	color: #FF8598;
+	background-image: url("../images/tree_bark.png");
+	background-attachment: fixed;
 }
 
 header {
@@ -50,7 +37,7 @@ header {
 	width: 100%;
 	height: 60px;
 	font-size: 20px;
-	z-index: 1;
+	z-index: 2;
 }
 header #logo {
 	float: left;
@@ -71,87 +58,141 @@ header #nav li {
 	padding: 10px 5px 2px 5px;
 	text-align: center;
 }
+header a:link, a:visited {
+	text-decoration: none;
+	color: #FF8598;
+}
+header a:hover {
+	text-decoration: none;
+	color: #FFC0A9;
+}
+header a:active {
+	text-decoration: none;
+	color: #FFC0A9;
+}
 
 footer {
-	vertical-align: center;
-	background: rgba(255,255,255,1);
+
 	margin: 0px;
-	padding: 50px 0px 0px 0px;
+	padding: 0px;
 	width: 100%;
 	height: 300px%;
 	font-size: 16px;
-	color: rgba(150,150,150,.8);
+	color: #FF8598;
 	text-align: center;
+}
+footer a:link, footer a:visited {
+	color: #FF8598;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #FFC0A9;
 }
 
 h1 {
-	font-family: 'Lato','Roboto','Arial',sans-serif;
-	color: rgba(248,131,121,1);
+	font-family: 'Lora','Times New roman',serif;
 }
 
 h2 {
-	font-family: 'Lato','Roboto','Arial',sans-serif;
-	color: rgba(20,50,20,1);
+	font-family: 'Lora','Times New Roman',serif;
+}
+h4 {
+	font-weight: bold;
 }
 
-.introduction {
-	background: rgba(255,255,255,1);
+.button {
+	background-color: #D4DF9F;
+	border: 1px solid #7D8A2E;
+	border-radius: 2px;
+	padding: 5px 10px 5px 10px;
+}
+.button:hover {
+	border: 1px solid #40411E;
+}
+
+#intro {
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
 	min-height: 100%;
 	margin: 0px;
 	padding: 200px 10% 60px 10%;
 	text-align: center;
-	color: rgba(248,131,121,1);
+	color: #FF8598;
 }
 
-.projects {
-	background: rgba(109,222,158,.25);
+#softwareprojects {
+	z-index: 1;
+	background: #C9D787;
+	color: #7D8A2E;
 	min-height: 100%;
 	margin: 0px;
-	padding: 50px 10% 50px 10%;
+	padding: 50px 10% 100px 10%;
 	text-align: left;
+	box-shadow: 0px 0px 10px #7D8A2E;
 }
-
-.projects ul {
+#softwareprojects h2 {
+	color: #7D8A2E;
+}
+#softwareprojects ul {
 	border: 0px;
 	padding: 0px;
 	list-style-type: none;
 	vertical-align: center;
 }
-.projects li {
+#softwareprojects li {
 	border: 0px;
 	padding: 0px;
 	width: 500px;
 	padding: 10px 10px 20px 10px;
 }
+#softwareprojects a:link, a:visited {
+	color: #7D8A2E;
+	text-decoration: none;
+}
+#softwareprojects a:hover {
+	color: #40411E;
+	text-decoration: none;
+}
 
-/*.projects ul {
-	border: 0px;
-	padding: 0px;
-	list-style-type: none;
+.project {
+	min-height: 300px;
+	color: #40411E;
+	border: 5px solid #C9D787;
+	background-color: #D4DF9F;
+	border-radius: 2px;
 	vertical-align: center;
 }
-.projects li {
-	border: 0px;
-	padding: 0px;
-	width: 500px;
-	display: inline-table;
-	padding: 10px 10px 20px 10px;
-}
-.projects li img {
-	width: 500px;
-}*/
 
-.about {
-	background: rgba(255,255,255,1);
+#resumetitle {
+	height: 110px;
 	margin: 0px;
-	padding: 50px 10% 50px 10%;
-	color: rgba(248,131,121,1);
+	text-align: center;
+	color: #FF8598;
+}
+#resumetitle a:link, #resumetitle a:visited {
+	color: red;
+	text-decoration: none;
+}
+#resumetitle a:hover {
+	color: blue;
+	text-decoration: none;
 }
 
-.resume {
-	background: rgba(109,222,158,.25);
+#resume {
+	z-index: 1;
+	background: #C9D787;
+	color: #7D8A2E;
 	min-height: 100%;
 	margin: 0px;
 	padding: 50px 10% 50px 10%;
 	text-align: left;
+	box-shadow: 0px 0px 10px #7D8A2E;
+}
+#resume a:link, a:visited {
+	color: #7D8A2E;
+	text-decoration: none;
+}
+#resume a:hover {
+	color: #40411E;
+	text-decoration: none;
 }
