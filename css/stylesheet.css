@@ -58,7 +58,7 @@ header #nav li {
 	padding: 10px 5px 2px 5px;
 	text-align: center;
 }
-header a:link, a:visited {
+header a:link, header a:visited {
 	text-decoration: none;
 	color: #FF8598;
 }
@@ -91,7 +91,7 @@ footer a:hover {
 }
 
 h1 {
-	font-family: 'Lora','Times New roman',serif;
+	font-family: 'Lato','Arial',serif;
 }
 
 h2 {
@@ -99,16 +99,6 @@ h2 {
 }
 h4 {
 	font-weight: bold;
-}
-
-.button {
-	background-color: #D4DF9F;
-	border: 1px solid #40411E;
-	border-radius: 2px;
-	padding: 5px 10px 5px 10px;
-}
-.button:hover {
-	border: 1px solid #7D8A2E;
 }
 
 #intro {
@@ -122,7 +112,7 @@ h4 {
 
 #softwareprojects {
 	z-index: 1;
-	background: #C9D787;
+	background-image: url("../images/green_noise.png");
 	color: #7D8A2E;
 	min-height: 100%;
 	margin: 0px;
@@ -157,30 +147,24 @@ h4 {
 .project {
 	min-height: 300px;
 	color: #40411E;
-	border: 5px solid #C9D787;
+	border-image: url("../images/green_noise.png") 50 5 repeat;
 	background-color: #D4DF9F;
 	border-radius: 2px;
 	vertical-align: center;
 }
 
 #resumetitle {
+	padding: 100px 0px 50px 0px;
+	font-size: 2em;
 	height: 110px;
 	margin: 0px;
 	text-align: center;
 	color: #FF8598;
 }
-#resumetitle a:link, #resumetitle a:visited {
-	color: red;
-	text-decoration: none;
-}
-#resumetitle a:hover {
-	color: blue;
-	text-decoration: none;
-}
 
 #resume {
 	z-index: 1;
-	background: #C9D787;
+	background-image: url("../images/green_noise.png");
 	color: #40411E;
 	min-height: 100%;
 	margin: 0px;
@@ -195,4 +179,21 @@ h4 {
 #resume a:hover {
 	color: #7D8A2E;
 	text-decoration: none;
+}
+
+.sidefloat {
+	float: right;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	vertical-align: center;
+	width: 50px;
+	border-radius: 4px;
+	padding: 5px;
+}
+.sidefloat a:link, .sidefloat a:visited {
+	color: #40411E;
+}
+.sidefloat a:hover {
+	color: #7D8A2E;
 }
