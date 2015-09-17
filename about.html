@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yura Kim</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Yura Kim Website">
+		<meta name="keywords" content="Yura,Kim,RIT,Software,Engineer,Engineering,Rochester,New York,Intern">
+		<meta name="author" content="Yura Kim">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.css">
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+		<link type='text/css' rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto:300'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+		<link type='text/css' rel="stylesheet" href='http://fonts.googleapis.com/css?family=Lato:100'>
+		<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="../images/bunny.png">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html#"><div id="logo" style="font-family:'Lato'">YK</div></a>
+			<div id="nav">
+				<ul>
+					<li><a href="resume.html">Resume</a></li>
+					<li>About</li>
+					<li><a href="index.html#projects">Projects</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 greendivtitle" style="height:120px">
+			<br>
+			<br>
+			<br>
+			<h1 style="font-size:3em;margin-left:50px"><strong>About</strong></h1>
+		</div>
+
+
+
+		<div id="greendiv" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<img src="images/photo.jpg" width="200px" style="margin-right:20px;border:1px solid #7D8A2E;border-radius:10px">
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12" style="vertical-align:center">
+				<h2>Hi, my name is Yura</h2>
+				<br>
+				<p>I am a <strong>software engineering student</strong> at the Rochester Institute of Technology. I have a passion for <strong>technology</strong> and aspire to work on the <strong>internet of things</strong>, <strong>home automation</strong>, <strong>artificial intelligence</strong>, and create meaningful <strong>user experience</strong> designs.</p>
+				<p>I am <strong>detail-oriented</strong>, but also able to see the big picture. Because of my diverse background and interests I'm able to <strong>think outside the box</strong> and am an effective <strong>problem solver</strong> and <strong>fast learner</strong>.</p>
+				<p>In my free-time I like to work on personal projects and play with <strong>Arduino</strong>. When I want to unwind I like to <strong>crochet</strong> while binging on <strong>Netflix</strong>.</p>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2>Skills</h2>
+				Web development
+				<div class="progress">
+					<div id="webSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+						<span class="sr-only">80%</span>
+					</div>
+				</div>
+				Software Testing
+				<div class="progress">
+					<div id="testingSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+						<span class="sr-only">50%</span>
+					</div>
+				</div>
+				User Interface Design
+				<div class="progress">
+					<div id="artDesignSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+						<span class="sr-only">40%</span>
+					</div>
+				</div>
+				Embedded System
+				<div class="progress">
+					<div id="embeddedSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+						<span class="sr-only">5%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin:50px 0px 50px 0px">
+				<a href="mailto:yuraxkim@gmail.com"><i class="fa fa-envelope-square" style="font-size:25px;padding-left:5px;padding-right:5px"></i></a>
+				<a href="http://www.linkedin.com/in/yuraxkim" target="_blank"><i class="fa fa-linkedin-square" style="font-size:25px;padding-left:5px;padding-right:5px"></i></a>
+				<a href="https://github.com/San-Toki" target="_blank"><i class="fa fa-github-square" style="font-size:25px;padding-left:5px;padding-right:5px"></i></a>
+				<br>
+				<p>&copy 2015 Yura Kim - View <a href="https://github.com/San-Toki/yurak.im" target="_blank">source code</a></p>
+			</div>
+		</footer>
+	</body>
+</html>
+
+<script>
+	$('document').ready(function() {
+		$('#webSkillBar').prop("style","width:80%");
+		$('#artDesignSkillBar').prop("style","width:40%");
+		$('#testingSkillBar').prop("style","width:50%");
+		$('#embeddedSkillBar').prop("style","width:5%");
+	})
+</script>

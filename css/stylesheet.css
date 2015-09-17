@@ -162,28 +162,30 @@ h4 {
 	color: #FF8598;
 }
 
-#resume {
+#greendiv {
 	z-index: 1;
 	background-image: url("../images/green_noise.png");
 	color: #40411E;
 	min-height: 100%;
-	margin: 0px;
+	margin-top: 15px;
 	padding: 50px 10% 50px 10%;
 	text-align: left;
 	box-shadow: 0px 0px 10px #7D8A2E;
 }
-#resume a:link, a:visited {
+#greendiv a:link, a:visited {
 	color: #40411E;
 	text-decoration: none;
 }
-#resume a:hover {
+#greendiv a:hover {
 	color: #7D8A2E;
 	text-decoration: none;
 }
 
 .sidefloat {
+	z-index: 2;
 	float: right;
 	position: fixed;
+	top: 200px;
 	right: 0px;
 	text-align: center;
 	vertical-align: center;
@@ -196,4 +198,8 @@ h4 {
 }
 .sidefloat a:hover {
 	color: #7D8A2E;
+}
+
+.progress-bar-info {
+	background-color: #FF8598;
 }
