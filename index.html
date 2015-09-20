@@ -15,10 +15,11 @@
 		<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="../images/bunny.png">
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
 		<header>
-			<a href="index.html#"><div id="logo" style="font-family:'Lato'">YK</div></a>
+			<div id="logo" style="font-family:'Lato'"><a href="index.html#">YK</a></div>
 			<div id="nav">
 				<ul>
 					<li><a href="resume.html">Resume</a></li>
@@ -62,7 +63,8 @@
 				<p>July 2015 – Present <span style="float:right"><a href="https://github.com/San-Toki/Lyf3" target="_blank"><i class="fa fa-github-square"></i></a> <a href="http://san-toki.github.io/Lyf3" target="_blank"><i class="fa fa-external-link"></i></a></span></p>
 				<br>
 				<div>
-					<p>Simple text-based life simulation game. Inspired by <a href="http://candies.aniwey.net/" target="_blank">Candy Box</a>, <a href="http://adarkroom.doublespeakgames.com/" target="_blank">A Dark Room</a>, and <a href="http://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>.<p>
+					<p>Simple text-based life simulation game.</p>
+					<p>Inspired by <a href="http://candies.aniwey.net/" target="_blank">Candy Box</a>, <a href="http://adarkroom.doublespeakgames.com/" target="_blank">A Dark Room</a>, and <a href="http://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>.<p>
 					<p>Under development.</p>
 				</div>
 			</div>
@@ -114,8 +116,8 @@
 				<p>April 2014 <span style="float:right"><a href="https://github.com/giovannicarvelli/medical-image-viewer" target="_blank"><i class="fa fa-github-square"></i></a></span></p>
 				<br>
 				<div>
-					<p>A simple medical imaging program with basic image processing capabilities such as adjusting contrast and brightness, cropping, and resizing. Basic file and directory manipulation such as copying and deleting was also included.</p>
-					<p>I worked on designing the software architecture and implemented serialization for saving study and user settings.</p>
+					<p>A medical imaging program with basic image processing capabilities such as adjusting contrast and brightness, cropping, and resizing. Basic file and directory manipulation such as copying and deleting was also included.</p>
+					<p>This was a practice in software architecture.</p>
 				</div>
 			</div>
 
@@ -139,3 +141,22 @@
 		</footer>
 	</body>
 </html>
+
+<script>
+	$('ul#nav li a').hover(
+	    function() {
+	        console.log("OVER");
+	        // do this on hover
+	        $(this).animate({
+	            'color': '#2E9ECE'
+	        }, 'slow');
+	    }, 
+	    function() {
+	        console.log("OUT");
+	        // do this on hover out
+	        $(this).animate({
+	            'color': '#FEFEFE'
+	        }, 'slow');
+	    }
+	);
+</script>

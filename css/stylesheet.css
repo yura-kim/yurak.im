@@ -45,6 +45,9 @@ header #logo {
 	color: #F88379;
 	font-size: 30px;
 }
+header #logo a:hover {
+	font-weight: bold;
+}
 header #nav ul {
 	list-style-type: none;
 	margin: 10px 10px 0px 0px;
