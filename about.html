@@ -52,19 +52,19 @@
 				<h2>Skills</h2>
 				Web development
 				<div class="progress">
-					<div id="webSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+					<div id="webSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
 						<span class="sr-only">80%</span>
 					</div>
 				</div>
 				Software Testing
 				<div class="progress">
-					<div id="testingSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+					<div id="testingSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
 						<span class="sr-only">50%</span>
 					</div>
 				</div>
 				User Interface Design
 				<div class="progress">
-					<div id="artDesignSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+					<div id="artDesignSkillBar" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
 						<span class="sr-only">40%</span>
 					</div>
 				</div>
@@ -85,9 +85,8 @@
 
 <script>
 	$('document').ready(function() {
-		$('#webSkillBar').prop("style","width:80%");
-		$('#artDesignSkillBar').prop("style","width:40%");
-		$('#testingSkillBar').prop("style","width:50%");
-		$('#embeddedSkillBar').prop("style","width:5%");
+		document.getElementById("webSkillBar").setAttribute("style","width:80%");
+		document.getElementById("testingSkillBar").setAttribute("style","width:50%");
+		document.getElementById("artDesignSkillBar").setAttribute("style","width:40%");
 	})
 </script>
