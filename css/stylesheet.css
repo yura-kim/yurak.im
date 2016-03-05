@@ -25,72 +25,27 @@ body {
 	padding: 0px;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-size: 16px;
-	color: #FF8598;
-	background-image: url("../images/tree_bark.png");
+	color: rgba(50,0,0,1);
+	background-image: url("../images/norwegian_rose.png");
 	background-attachment: fixed;
 }
 
-header {
-	position: fixed;
-	background: linear-gradient(to bottom, rgba(255,255,255,.7), rgba(255,255,255,.8));
-	padding: 0;
+footer {
+	background: rgba(20,20,20,1);
+	padding: 70px;
 	width: 100%;
-	height: 60px;
-	font-size: 20px;
-	z-index: 2;
-}
-header #logo {
-	float: left;
-	margin: 11px 15px 15px 20px;
-	color: #F88379;
-	font-size: 30px;
-}
-header #logo a:hover {
-	font-weight: bold;
-}
-header #nav ul {
-	list-style-type: none;
-	margin: 10px 10px 0px 0px;
+	font-size: 16px;
+	color: rgba(250,250,230,1);
+	text-align: center;
 	vertical-align: center;
 }
-header #nav li {
-	display: inline;
-	float: right;
-	height: 60px;
-	width: 100px;
-	padding: 10px 5px 2px 5px;
-	text-align: center;
-}
-header a:link, header a:visited {
-	text-decoration: none;
-	color: #FF8598;
-}
-header a:hover {
-	text-decoration: none;
-	color: #FFC0A9;
-}
-header a:active {
-	text-decoration: none;
-	color: #FFC0A9;
-}
-
-footer {
-
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-	height: 300px%;
-	font-size: 16px;
-	color: #FF8598;
-	text-align: center;
-}
 footer a:link, footer a:visited {
-	color: #FF8598;
+	color: #D0D0D0;
 	text-decoration: none;
 }
 footer a:hover {
 	text-decoration: none;
-	color: #FFC0A9;
+	color: rgba(255,255,255,1);
 }
 
 h1 {
@@ -105,104 +60,92 @@ h4 {
 }
 
 #intro {
-	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
-	min-height: 100%;
+	background: rgba(255, 255, 255, 1);
+	height: 100%;
 	margin: 0px;
-	padding: 200px 10% 60px 10%;
-	text-align: center;
-	color: #FF8598;
-}
-
-#softwareprojects {
-	z-index: 1;
-	background-image: url("../images/green_noise.png");
-	color: #7D8A2E;
-	min-height: 100%;
-	margin: 0px;
-	padding: 50px 10% 100px 10%;
-	text-align: left;
-	box-shadow: 0px 0px 10px #7D8A2E;
-}
-#softwareprojects h2 {
-	color: #7D8A2E;
-}
-#softwareprojects ul {
-	border: 0px;
-	padding: 0px;
-	list-style-type: none;
-	vertical-align: center;
-}
-#softwareprojects li {
-	border: 0px;
-	padding: 0px;
-	width: 500px;
-	padding: 10px 10px 20px 10px;
-}
-#softwareprojects a:link, #softwareprojects a:visited {
-	color: #7D8A2E;
-	text-decoration: none;
-}
-#softwareprojects a:hover {
-	color: #40411E;
-	text-decoration: none;
-}
-
-.project {
-	min-height: 300px;
-	color: #40411E;
-	border-image: url("../images/green_noise.png") 50 5 repeat;
-	background-color: #D4DF9F;
-	border-radius: 2px;
-	vertical-align: center;
-}
-
-#resumetitle {
-	padding: 100px 0px 50px 0px;
-	font-size: 2em;
-	height: 110px;
-	margin: 0px;
-	text-align: center;
-	color: #FF8598;
-}
-
-#greendiv {
-	z-index: 1;
-	background-image: url("../images/green_noise.png");
-	color: #40411E;
-	min-height: 100%;
-	margin-top: 15px;
-	padding: 50px 10% 50px 10%;
-	text-align: left;
-	box-shadow: 0px 0px 10px #7D8A2E;
-}
-#greendiv a:link, a:visited {
-	color: #40411E;
-	text-decoration: none;
-}
-#greendiv a:hover {
-	color: #7D8A2E;
-	text-decoration: none;
-}
-
-.sidefloat {
-	z-index: 2;
-	float: right;
-	position: fixed;
-	top: 200px;
-	right: 0px;
+	padding: 200px 10% 200px 10%;
 	text-align: center;
 	vertical-align: center;
-	width: 50px;
-	border-radius: 4px;
-	padding: 5px;
-}
-.sidefloat a:link, .sidefloat a:visited {
-	color: #40411E;
-}
-.sidefloat a:hover {
-	color: #7D8A2E;
 }
 
-.progress-bar-info {
-	background-color: #FF8598;
+#projects {
+	padding: 50px;
+	align: center;
+}
+
+.project-card {
+	background: rgba(255,255,255,.8);
+	border: 1px solid rgba(50,50,50,.5);
+	border-radius: 5px;
+	padding: 15px;
+	height: 300px;
+	overflow: auto;
+}
+
+.button {
+	background: rgba(255,255,255,.8);
+	border: 1px solid rgba(50,50,50,.5);
+	border-radius: 5px;
+	padding: 15px;
+	overflow: auto;
+	text-align: center;
+	font-family: 'Lora','Times New Roman',serif;
+}
+.button  a, .button a:hover, .button a:visited {
+	text-decoration: none;
+}
+
+#about {
+	background-image: url("../images/cream_pixels.png");
+	padding: 100px;
+}
+
+
+/* TABS */
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+
+.tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+.tab-links li {
+	text-align: center;
+    list-style:none;
+}
+	
+.tab-links a {
+	color: #D0D0D0;
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:3px 3px 0px 0px;
+    transition:all linear 0.15s;
+    outline: 0px;
+}
+
+.tab-links a:hover {
+    text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	color: rgba(50,0,0,1);
+	font-weight: bold;
+	text-decoration: none;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+    padding:15px;
+    border-radius:3px;
+} 
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
 }
