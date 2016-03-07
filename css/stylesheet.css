@@ -25,7 +25,7 @@ body {
 	padding: 0px;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-size: 16px;
-	color: rgba(50,0,0,1);
+	color: rgba(100,0,0,1);
 	background-image: url("../images/norwegian_rose.png");
 	background-attachment: fixed;
 }
@@ -39,7 +39,7 @@ a:hover {
 }
 
 footer {
-	background: rgba(10,0,0,1);
+	background: rgba(30,0,0,1);
 	padding: 70px;
 	width: 100%;
 	height: 200px;
@@ -97,19 +97,21 @@ h4 {
 }
 
 .button {
-	background: rgba(255,255,255,.8);
+	background: rgba(50,0,0,.8);
+	color: rgba(255,255,255,.8);
 	border: 1px solid rgba(50,50,50,.5);
 	border-radius: 5px;
 	padding: 15px;
 	overflow: auto;
 	text-align: center;
 	font-family: 'Lora','Times New Roman',serif;
-	box-shadow: 0px 0px 2px rgba(50,0,0,.5);
+	box-shadow: 0px 0px 5px rgba(50,0,0,.5);
 }
 .button:hover {
 	box-shadow: none;
+	background: rgba(30,0,0,1);
 }
-.button-link, .button-link:hover, .button-link:visited {
+.button-link a, .button-link:hover, .button-link:visited {
 	color: rgba(150,100,100,1);
 	text-decoration: none;
 }
@@ -124,14 +126,6 @@ h4 {
 	padding-bottom: 100px;
 	min-height: 600px;
 	height: auto;
-}
-#tab21 a, #about a:visited {
-	color: rgba(150,100,100,1);
-	text-decoration: none;
-}
-#tab21 a:hover {
-	color: rgba(50,0,0,1);
-	text-decoration: none;
 }
 
 
@@ -153,7 +147,7 @@ h4 {
 }
 	
 .tab-links a {
-	color: #D0D0D0;
+	color: rgba(200,200,200,1);
     padding:9px 15px;
     display:inline-block;
     border-radius:3px 3px 0px 0px;
@@ -162,11 +156,12 @@ h4 {
 }
 
 .tab-links a:hover {
+	color: rgba(200,150,150,1);
     text-decoration:none;
 }
 
 li.active a, li.active a:hover {
-	color: rgba(50,0,0,1);
+	color: rgba(100,0,0,1);
 	font-weight: bold;
 	text-decoration: none;
 }
