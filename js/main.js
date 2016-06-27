@@ -6,11 +6,11 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 
 // travian tools
 function travian1(){
-    $('#travian').html("<h2>travian tools</h2><strong>A set of tools to help Travian players strategize.<br><br>Under development.</strong>");
+    $('#travian').html("<h2><a href='https://github.com/San-Toki/tower/' target='_blank'>tower defence</a></h2><strong>Strategic tower defence game created using Phaser Javascript game engine and Gimp.</strong>");
     $('#travian').css("background-image","url('images/travian2.jpg')");
 }
 function travian2() {
-    $('#travian').html("<h2>travian tools</h2>web app<br>game stratgy tools");
+    $('#travian').html("<h2>tower defence</h2>browser game<br>strategy");
     $('#travian').css("background-image","url('images/travian1.jpg')");
 }
 if(isMobile) {
@@ -58,7 +58,7 @@ function lyf31(){
     $('#lyf3').css("background-image","url('images/lyf32.jpg')");
 }
 function lyf32() {
-    $('#lyf3').html("<h2>lyf3</h2>web app<br>casual");
+    $('#lyf3').html("<h2>lyf3</h2>broswer game<br>casual");
     $('#lyf3').css("background-image","url('images/lyf31.jpg')");
 }
 if(isMobile) {
