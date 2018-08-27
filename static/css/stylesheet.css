@@ -74,7 +74,7 @@ footer a {
 }
 
 #portfolio {
-	background-color: rgba(200,200,200,1);
+	background-color: rgba(200,200,210,1);
 }
 
 #experience {
@@ -86,7 +86,7 @@ footer a {
 }
 
 #contact {
-	background-color: rgba(200,200,200,1);
+	background-color: rgba(200,200,210,1);
 }
 
 .left-align {
@@ -111,4 +111,11 @@ footer a {
 
 li {
 	margin: 0px;
+}
+
+.project {
+	border: 1px solid rgba(100,100,100,1);
+	border-radius: 4px;
+	padding: 30px;
+	height: 250px;
 }
