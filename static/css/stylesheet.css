@@ -39,6 +39,20 @@ footer a {
 	margin-right: 2%;
 }	
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 #intro {
 	background-image: url("../images/pattern.png");
 	background-color: rgba(50,50,75,1);
@@ -118,4 +132,5 @@ li {
 	border-radius: 4px;
 	padding: 30px;
 	height: 250px;
+	overflow-y: scroll;
 }
